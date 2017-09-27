@@ -1,0 +1,6 @@
+<testsuites name="jest tests">
+  <testsuite name="/src/test/__tests__/components/simpletest.js" tests="1" errors="0" failures="0" skipped="0" timestamp="2017-09-27T20:44:24" time="0.982">
+    <testcase classname=" - simple test" name=" - simple test" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>

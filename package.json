@@ -1,0 +1,35 @@
+{
+  "name": "js-jenkins-practice",
+  "version": "1.0.0",
+  "description": "Trying to integrate a react app with jenkins",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test:ci": "react-scripts test --env=jsdom --testResultsProcessor ./node_modules/jest-junit --coverage --coverageDirectory=test/coverage",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest-junit": "^2.1.0",
+    "enzyme": "^2.9.1",
+    "react-test-renderer": "^15.6.1"
+  },
+  "jest": {
+    "coverageReporters": ["lcov", "text"]
+  },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "output": "test/junit.xml",
+    "classNameTemplate": "{classname} - {title}",
+    "titleTemplate": "{classname} - {title}",
+    "ancestorSeparator": " > ",
+    "usePathForSuiteName": "true"
+  }
+}
