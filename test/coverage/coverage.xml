@@ -1,9 +1,78 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage
   SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
-<coverage branch-rate="0.0" branches-covered="0" branches-valid="0" complexity="0" line-rate="0.0" lines-covered="0" lines-valid="0" timestamp="1506619737" version="2.0.3">
+<coverage branch-rate="0.0" branches-covered="0" branches-valid="33" complexity="0" line-rate="0.0" lines-covered="0" lines-valid="8" timestamp="1506621080" version="2.0.3">
 	<sources>
 		<source>../../src</source>
 	</sources>
-	<packages/>
+	<packages>
+		<package branch-rate="0.0" complexity="0" line-rate="0.0" name="main">
+			<classes>
+				<class branch-rate="0.0" complexity="0" filename="main/app.js" line-rate="0.0" name="main.app.js">
+					<methods>
+						<method branch-rate="0.0" line-rate="0.0" name="defineProperties" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="render" signature="">
+							<lines>
+								<line branch="false" hits="0" number="9"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="HelloWorld" signature="">
+							<lines>
+								<line branch="false" hits="0" number="5"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="(anonymous_7)" signature="">
+							<lines>
+								<line branch="false" hits="0" number="3"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="(anonymous_2)" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_inherits" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_possibleConstructorReturn" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_interopRequireDefault" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="_classCallCheck" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1"/>
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.0" name="(anonymous_0)" signature="">
+							<lines>
+								<line branch="false" hits="0" number="1"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line branch="true" condition-coverage="0% (0/31)" hits="0" number="1"/>
+						<line branch="false" hits="0" number="3"/>
+						<line branch="true" condition-coverage="0% (0/2)" hits="0" number="6"/>
+						<line branch="false" hits="0" number="8"/>
+						<line branch="false" hits="0" number="9"/>
+						<line branch="false" hits="0" number="13"/>
+						<line branch="false" hits="0" number="14"/>
+						<line branch="false" hits="0" number="15"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
 </coverage>
