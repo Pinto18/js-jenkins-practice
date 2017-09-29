@@ -1,0 +1,6 @@
+projectKey=fam4ever
+serverUrl=http://localhost:9000
+serverVersion=6.5.0.27846
+dashboardUrl=http://localhost:9000/dashboard/index/fam4ever
+ceTaskId=AV7KFG2frWvUPt-1a8MR
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV7KFG2frWvUPt-1a8MR
